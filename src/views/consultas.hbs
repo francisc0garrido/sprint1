@@ -1,0 +1,32 @@
+<div class="container text-center  ">
+
+    <h3 >
+        Listado de Productos
+    </h3>
+
+</div>
+
+
+
+<table class="table table-dark table-striped">
+    <thead>
+        <th>Id Productos</th>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Precio</th>
+    </thead>
+    <tbody>
+        {{#each result}}
+        <tr>
+            <td>{{idProducto}}</td>
+            <td>{{nombre}}</td>
+            <td>{{marca}}</td>
+            <td>{{precio}}</td>
+        </tr>
+    </tbody>
+    {{/each}}
+
+</table>
+
+
+</div>
